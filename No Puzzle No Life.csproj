@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79E5882D-C946-D9B3-BC87-B096B34AF877}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\BL_Tele.cs" />
+    <Compile Include="Assets\Scripts\BR_Tele.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_1.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_10.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_11.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_2.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_3.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_4.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_5.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_6.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_7.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_8.cs" />
+    <Compile Include="Assets\Scripts\BridgePortalScripts\bp_9.cs" />
+    <Compile Include="Assets\Scripts\CharacterControllerScript.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelection.cs" />
+    <Compile Include="Assets\Scripts\CreditScript.cs" />
+    <Compile Include="Assets\Scripts\DownArrow.cs" />
+    <Compile Include="Assets\Scripts\EnableLava.cs" />
+    <Compile Include="Assets\Scripts\IceFallOffMapScript.cs" />
+    <Compile Include="Assets\Scripts\IceStageScript.cs" />
+    <Compile Include="Assets\Scripts\LeftArrow.cs" />
+    <Compile Include="Assets\Scripts\MineSweeperScript.cs" />
+    <Compile Include="Assets\Scripts\OnColliderWarp.cs" />
+    <Compile Include="Assets\Scripts\PlayScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerInteractGameObject.cs" />
+    <Compile Include="Assets\Scripts\PlayerTouchLava.cs" />
+    <Compile Include="Assets\Scripts\ReloadScene.cs" />
+    <Compile Include="Assets\Scripts\ReturnScript.cs" />
+    <Compile Include="Assets\Scripts\RightArrow.cs" />
+    <Compile Include="Assets\Scripts\RightBucketScript.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\a1.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\a2.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\a3.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\a4.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\a5.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\b1.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\b2.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\b3.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\b4.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\b5.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\i1.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\i2.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\i3.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\i4.cs" />
+    <Compile Include="Assets\Scripts\Scripts for loading into levels\i5.cs" />
+    <Compile Include="Assets\Scripts\Shop.cs" />
+    <Compile Include="Assets\Scripts\SimpleLevelLoadScript.cs" />
+    <Compile Include="Assets\Scripts\SoundScript.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Scripts\StopScript.cs" />
+    <Compile Include="Assets\Scripts\SwitchTileScript.cs" />
+    <Compile Include="Assets\Scripts\TR_TeleScript.cs" />
+    <Compile Include="Assets\Scripts\UpArrow.cs" />
+    <Compile Include="Assets\Scripts\WarpToSpot.cs" />
+    <Compile Include="Assets\Scripts\ab1.cs" />
+    <Compile Include="Assets\Scripts\ab10.cs" />
+    <Compile Include="Assets\Scripts\ab11.cs" />
+    <Compile Include="Assets\Scripts\ab12.cs" />
+    <Compile Include="Assets\Scripts\ab13.cs" />
+    <Compile Include="Assets\Scripts\ab14.cs" />
+    <Compile Include="Assets\Scripts\ab15.cs" />
+    <Compile Include="Assets\Scripts\ab2.cs" />
+    <Compile Include="Assets\Scripts\ab3.cs" />
+    <Compile Include="Assets\Scripts\ab4.cs" />
+    <Compile Include="Assets\Scripts\ab5.cs" />
+    <Compile Include="Assets\Scripts\ab6.cs" />
+    <Compile Include="Assets\Scripts\ab7.cs" />
+    <Compile Include="Assets\Scripts\ab8.cs" />
+    <Compile Include="Assets\Scripts\ab9.cs" />
+    <Compile Include="Assets\Scripts\goBack.cs" />
+    <Compile Include="Assets\Scripts\lavaInstantiator.cs" />
+    <Compile Include="Assets\Scripts\leftclick.cs" />
+    <Compile Include="Assets\Scripts\onclickToNextLevel.cs" />
+    <Compile Include="Assets\Scripts\teleporter.cs" />
+    <Compile Include="Assets\Scripts\trapscript.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\Layer.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ObjectLayer.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\PolygonObject.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\PolylineObject.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\RectangleObject.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileLayer.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\3buttons.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 3.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 4.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 4_b.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 5.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Level 7.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Map1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\level 6.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\maze.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\mazeagain.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\newMap2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\outsidetoinsidemap.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\patternsmap.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\test.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\tpbridgemap.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\treesAndButton.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\License.txt" />
+    <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDiffuseDepth.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+    <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

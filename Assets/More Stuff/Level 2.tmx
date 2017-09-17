@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="SNES - Power Rangers Zeo Battle Racers - Ice Sheet 2" tilewidth="32" tileheight="32" tilecount="1088" columns="32">
+  <image source="../../Downloads/SNES - Power Rangers Zeo Battle Racers - Ice Sheet 2.png" width="1030" height="1109"/>
+ </tileset>
+ <tileset firstgid="1089" name="snowice" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../Downloads/snowice.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1107" name="32x32_map_tile v1.0" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../../Downloads/32x32_map_tile v1.0.png" width="502" height="263"/>
+ </tileset>
+ <tileset firstgid="1227" name="All dEad" tilewidth="32" tileheight="32" tilecount="1856" columns="58">
+  <image source="../../Pictures/All dEad.png" width="1871" height="1038"/>
+ </tileset>
+ <tileset firstgid="3083" name="Land_DirtGrass (34)" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="../../Downloads/9 - TopDown/Land_DirtGrass (34).png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="3099" name="Land_WaterGrass (8)" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="../../Downloads/9 - TopDown/Land_WaterGrass (8).png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="3115" name="terrain" tilewidth="32" tileheight="32" tilecount="483" columns="21">
+  <image source="../../Downloads/terrain.png" width="672" height="736"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="16" height="10">
+  <data encoding="csv">
+3238,3271,3238,3238,3271,3238,3238,3238,3238,3238,3238,3238,3238,3238,3238,3271,
+3238,3271,3238,3238,3271,3238,3271,3271,3271,3271,3271,3271,3271,3238,3238,3271,
+3238,3271,3271,3271,3271,3238,3271,3238,3238,3238,3238,3238,3271,3238,3238,3271,
+3238,3238,3238,3238,3271,3238,3271,3271,3271,3271,3238,3238,3271,3238,3238,3271,
+3238,3238,3238,3238,3271,3238,3238,3238,3238,3271,3238,3238,3271,3238,3271,3271,
+3271,3271,3271,3271,3271,3238,3271,3271,3271,3271,3238,3238,3271,3238,3271,3238,
+3238,3271,3238,3238,3238,3238,3271,3238,3238,3238,3238,3238,3271,3271,3271,3238,
+3271,3271,3271,3271,3271,3271,3271,3238,3271,3271,3271,3238,3238,3271,3238,3238,
+3271,3238,3238,3238,3238,3238,3271,3238,3238,3238,3271,3238,3238,3271,3238,3238,
+3271,3271,3271,3271,3271,3238,3271,3271,3271,3271,3271,3238,3238,3271,3238,3238
+</data>
+ </layer>
+</map>

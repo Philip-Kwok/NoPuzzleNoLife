@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="SNES - Power Rangers Zeo Battle Racers - Ice Sheet 2" tilewidth="32" tileheight="32" tilecount="1088" columns="32">
+  <image source="../../Downloads/SNES - Power Rangers Zeo Battle Racers - Ice Sheet 2.png" width="1030" height="1109"/>
+ </tileset>
+ <tileset firstgid="1089" name="snowice" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../Downloads/snowice.png" width="96" height="192"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="16" height="10">
+  <data encoding="csv">
+176,1092,176,176,176,176,176,176,176,176,176,176,176,176,1092,176,
+140,176,176,176,176,176,176,1092,176,176,176,176,176,176,176,777,
+1092,176,176,176,176,176,176,176,176,1092,176,176,176,176,176,176,
+176,176,176,1092,176,176,176,176,176,176,176,176,176,176,176,1092,
+176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,
+1092,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,
+176,176,176,176,176,176,176,176,176,176,1092,176,176,176,176,176,
+176,176,176,176,176,176,1092,176,176,176,176,176,176,176,176,176,
+176,176,176,176,176,176,176,176,176,176,176,1092,176,176,176,176,
+176,176,176,176,1092,176,176,176,176,176,176,176,176,176,176,176
+</data>
+ </layer>
+</map>
